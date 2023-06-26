@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Word Alchemy - Read</title> 
+    {% include 'bootstrap.html' %}
+    <link rel="stylesheet" href="static/style.css" type="text/css">
+  </head>
+  <body> 
+    
+      {% include 'nav.html' %}
+      
+      {% for article in articles %}
+        <div class=box>
+          <h1 class="title_1">{{article['title']}}</h1>
+          <h2 class="writer_1">By {{article['writer']}}</h2>
+          <p class="summary_1">{{article['summary']}}</p>
+          <a href="/read/{{article['article_id']}}" class="read_button"<button>Read</button></a>
+        </div>
+      {% endfor %}
+    
+    
+  </body>
+  
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Word Alchemy - {{art['title']}}</title> 
+    {% include 'bootstrap.html' %}
+    <link rel="stylesheet" href="../static/style.css" type="text/css">
+   
+  </head>
+  <body class="indi_arti"> 
+    
+      {% include 'nav.html' %}    
+      <div class="box_2">
+        
+          <h1 class="title_2">{{art['title']}}</h1>
+        
+          <h2 class="writer_2">{{art['writer']}}</h2>
+          <hr class="line_1">
+          
+          <div>
+           <p class="content">{{ content|safe }}</p>
+          </div> 
+                   
+      </div>
+    
+    
+  </body>
+  
+</html>

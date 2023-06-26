@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Montserrat:ital,wght@0,100;0,300;0,600;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Gwendolyn:wght@700&family=Montserrat:ital,wght@0,100;0,300;0,600;1,100&display=swap');
+
+.welcome{
+  color: #006164;
+  font-family: "Montserrat";
+  font-weight: 800px;
+  text-align: center;
+  font-size: 80px;
+  margin-top: 20px;
+  text-shadow: 1px 3px 2px rgba(0,0,0,0.36);
+}
+
+.intro_text{
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+.container_1{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.intro_pic{
+  height: 300px;
+  width: auto;
+}
+
+.box{
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 50px 70px;  
+  
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: -3px 1px 21px -9px rgba(0,0,0,0.67);
+}
+
+.title_1{
+  color: #00000;
+  font-family: "Montserrat";
+  font-size: 40px;
+  text-shadow: 1px 3px 2px rgba(0,0,0,0.36);  
+  margin-bottom: 0px;
+}
+
+.writer_1{
+  color: #00000;
+  font-family: "Montserrat";
+  font-size: 21px;   
+}
+
+.summary_1{
+  color: #00000;
+  font-family: "Montserrat";
+  font-size: 19px;
+  
+}
+.read_button{
+  padding: 9px 25px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background-color: #006164;   
+  
+}
+
+.read_button:hover{
+   background-color: #00AEC0;   
+}
+
+.title_2{
+  color: #000000;
+  font-family: "Montserrat";
+  font-size: 50px;
+  text-shadow: 1px 3px 2px rgba(0,0,0,0.36);
+  margin-bottom: 0px;
+}
+
+.writer_2{
+  color: #000000;
+  font-family: "Montserrat";
+  font-size: 25px; 
+  
+}
+
+.box_2{
+  background-color: #ffffff;
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 25px 150px;
+  padding: 20px 60px;
+  border-radius: 15px;
+  box-shadow: -3px 1px 21px -9px rgba(0,0,0,0.72);
+}
+
+.line_1{
+  text-shadow: 1px 3px 2px rgba(0,0,0,0.36);
+  border-top: 1.5px solid #000
+}
+
+.content{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.indi_arti{
+  background-color: #e8e8e8;
+}
+
+
