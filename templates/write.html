@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Word Alchemy - {{art['title']}}</title> 
+    <title>Word Alchemy - Write</title> 
     <link rel="icon" type="image/png" href="https://word-alchemy.sakshii2004.repl.co/static/icon.png">
     {% include 'bootstrap.html' %}
     <link rel="stylesheet" href="static/style.css" type="text/css">
+   
   </head>
-  <body> 
+  <body class="indi_arti"> 
     
       {% include 'nav.html' %}    
+      <div>
+        <h1 class="weave"> Weave the Words</h1>
       
-        <div>
-          <h1 class="title_2">{{art['title']}}</h1>
-        
-          <h2 class="writer_2">Writer: {{art['writer']}}</h2>
-          
-          <div>
-           <p>{{ content|safe }}</p>
-          </div>
-        </div>    
+        {% include 'write_form.html' %}
+      </div>
     
     
   </body>

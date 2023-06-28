@@ -108,8 +108,105 @@
   font-weight: bold;
   font-size: 20px;
 }
+
 .indi_arti{
   background-color: #e8e8e8;
 }
 
+.back_button{
+  color: #006164;
+}
 
+.write_label{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.input_box{
+  width: 100%;
+  height: 50px;
+  border-radius: 15px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  border-color: #006164;
+}
+
+.input_box:focus {
+  border: 3px double #006164;
+  padding: 10px 10px;
+  
+}
+
+.text_box{
+  width: 100%; 
+  height: 200px;
+  border-radius: 18px;
+  font-family: "Montserrat";
+  font-size: 15px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  border-width: 2px;
+  border-color: #006164;
+}
+
+.text_box:focus {
+  border: 3px double #006164;
+  padding: 10px 10px; 
+}
+
+
+
+.box_form{
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 20px 20%;  
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: -3px 1px 21px -9px rgba(0,0,0,0.79);
+}
+
+.weave{
+  color: #000000;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 800px;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 20px;
+  text-shadow: 3px 2px 3px rgba(0,0,0,0.75);
+}
+
+.submit_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.sub{
+  padding: 9px 25px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background-color: #006164;   
+  font-family: "Montserrat";
+  family-weight: bold;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.sub:hover{
+  background-color: #00AEC0;  
+}
+
+.Thankyou{
+  width: 1200px;
+  height: auto;
+}

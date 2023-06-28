@@ -17,7 +17,7 @@ def load_articles_from_db():
   return articles
 
 with engine.connect() as conn:
-  result = conn.execute(text("select * from articles"))
+  result = conn.execute(text("select * from articles ORDER BY article_id DESC"))
   articles = []
   for row in result.all():
     articles.append(dict(row._asdict()))
@@ -27,6 +27,12 @@ def load_one_article_from_db(id):
     result = conn.execute(text("select * from articles where article_id = :val"), {"val":id})
     row=result.fetchall()
   return dict(row[0]._asdict())
+
+def add_article_to_db(data):
+  with engine.connect() as conn:
+    query = text("INSERT INTO articles (title, writer, summary, content) VALUES(:title, :writer, :summary, :content)")
+    variables = {"title":data['title'], "writer":data['writer'], "summary":data['summary'], "content":data['content']}
+    conn.execute(query, variables)
 
 """test = load_one_article_from_db(1)
 print(test)"""
